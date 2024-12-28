@@ -44,3 +44,7 @@
 [18:21:43] [Worker-Main-1/INFO]: Preparing spawn area: 24%
 [18:21:44] [Server thread/INFO]: Time elapsed: 10302 ms
 [18:21:44] [Server thread/INFO]: Done (24.196s)! For help, type "help"
+[18:59:16] [Server thread/INFO]: Abstem[/172.23.105.160:60766] logged in with entity id 31 at (157.5, 72.0, -21.5)
+[18:59:16] [Server thread/INFO]: Abstem joined the game
+[19:00:04] [Server thread/INFO]: Abstem lost connection: Disconnected
+[19:00:04] [Server thread/INFO]: Abstem left the game
