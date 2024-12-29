@@ -1,37 +1,477 @@
-[20:48:11] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.3
-[20:48:11] [main/INFO]: Loading 6 mods:
+[00:40:07] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.3
+[00:40:07] [ForkJoinPool-1-worker-4/WARN]: Mod totw_modded uses the version fabric-1.21-1.0.5 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:40:07] [main/INFO]: Loading 100 mods:
+	- archers 2.2.0+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- azurelibarmor 2.3.15
+	- bclib 21.0.13
+	- bettercombat 2.0.4+1.21.1
+	- betterend 21.0.11
+	- betternether 21.0.11
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- combat-plus-core 3.1.0+1.21
+	   \-- lilylib 1.3.0+1.21
+	- combat_roll 2.0.2+1.21.1
+	- extended-enchanting 2.0.0+1.21
+	- fabric-api 0.106.0+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.68+b559734419
+	   |-- fabric-biome-api-v1 13.0.29+5bd9f1bc19
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a719
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.16+b559734419
+	   |-- fabric-convention-tags-v1 2.1.0+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.9.0+83a9d31319
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.1.28+1daea21519
+	   |-- fabric-data-generation-api-v1 20.2.21+16c4ae2519
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.7.0+2122d82819
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.1.0+d5debaed19
+	   |-- fabric-item-group-api-v1 4.1.5+3fc0e55219
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.3.12+6c1df36019
+	   |-- fabric-loot-api-v2 3.0.14+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.2+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.0+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.13+6508971219
+	   |-- fabric-registry-sync-v0 5.1.3+60c3209b19
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.68+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.71+df3654b319
+	   |-- fabric-rendering-v1 5.0.5+df16efd019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.0+5659912919
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.87+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.0+95bead5f19
+	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
 	- fabricloader 0.16.3
 	   \-- mixinextras 0.4.1
+	- formations 1.0.2
+	- formationsoverworld 1.0.4
+	- hopobettermineshaft 1.2.8
+	- hopobetterruinedportal 1.4.4
 	- java 21
-	- minecraft 1.21
-	- skinrestorer 2.2.1+1.21-fabric
-	   \-- org_mineskin_java-client 3.0.1-SNAPSHOT
-[20:48:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mc_X/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:48:21] [main/WARN]: fabric-api is not loaded, SkinShuffle compatibility will not be available
-[20:48:21] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:48:21] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[20:48:25] [main/INFO]: Loaded 1290 recipes
-[20:48:25] [main/INFO]: Loaded 1399 advancements
-[20:48:26] [Server thread/INFO]: Starting minecraft server version 1.21
-[20:48:26] [Server thread/INFO]: Loading properties
-[20:48:26] [Server thread/INFO]: Default game type: SURVIVAL
-[20:48:26] [Server thread/INFO]: Generating keypair
-[20:48:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:48:27] [Server thread/INFO]: Using epoll channel type
-[20:48:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:48:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:48:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:48:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:48:27] [Server thread/INFO]: Preparing level "world"
-[20:48:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:48:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:48:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[20:48:36] [Server thread/INFO]: Time elapsed: 993 ms
-[20:48:36] [Server thread/INFO]: Done (8.893s)! For help, type "help"
-[20:49:20] [Thread-8/WARN]: Failed to fetch skin: not found
-[20:49:21] [Server thread/INFO]: Abstem[/172.23.105.160:63435] logged in with entity id 48 at (206.78903754252713, 71.0, -21.28372383115504)
-[20:49:21] [Server thread/INFO]: Abstem joined the game
-[20:54:43] [Server thread/INFO]: [Abstem: Skin changed]
-[20:55:13] [Server thread/INFO]: Abstem went up in flames
-[20:57:45] [Server thread/INFO]: Abstem lost connection: Disconnected
-[20:57:45] [Server thread/INFO]: Abstem left the game
+	- jewelry 2.0.2+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- medieval_buildings 1.0.2
+	- minecraft 1.21.1
+	- mr_dungeons_andtavernsdeserttemplereplacement 1-v1.2
+	- mr_dungeons_andtavernsendcastlestandalone 1-v1.1
+	- mr_dungeons_andtavernsjungletemplereplacement 1-v1.2
+	- mr_dungeons_andtavernsoceanmonumentreplacement 1-v1.2
+	- mr_dungeons_andtavernswoodlandmansionreplacement 1-v1.2
+	- paladins 2.2.0+1.21.1
+	   |-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	   \-- shield_api 2.0.2+1.21.1
+	- playeranimator 2.0.1+1.21.1
+	- ranged_weapon_api 2.0.4+1.21.1
+	- rogues 2.2.0+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- runes 1.0.3+1.21.1
+	- spell_engine 1.2.0+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- spell_power 1.0.7+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- strayed_fates_forsaken 1-v2.0.0.2
+	- structory 1.3.9
+	- structory_towers 1.0.10
+	- structure_pool_api 1.1.3+1.21.1
+	- totw_modded fabric-1.21-1.0.5
+	- trinkets 3.10.0
+	   |-- cardinal-components-base 6.1.0
+	   \-- cardinal-components-entity 6.1.0
+	- wizards 2.2.0+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- wover 21.0.13
+	   |-- wover-biome 21.0.13
+	   |-- wover-block 21.0.13
+	   |-- wover-common 21.0.13
+	   |-- wover-core 21.0.13
+	   |-- wover-datagen 21.0.13
+	   |-- wover-events 21.0.13
+	   |-- wover-feature 21.0.13
+	   |-- wover-generator 21.0.13
+	   |-- wover-item 21.0.13
+	   |-- wover-math 21.0.13
+	   |-- wover-preset 21.0.13
+	   |-- wover-recipe 21.0.13
+	   |-- wover-structure 21.0.13
+	   |-- wover-surface 21.0.13
+	   |-- wover-tag 21.0.13
+	   |-- wover-ui 21.0.13
+	   \-- wunderlib 21.0.8
+[00:40:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mc_X/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:40:07] [main/INFO]: Compatibility level set to JAVA_17
+[00:40:07] [main/INFO]: Compatibility level set to JAVA_21
+[00:40:07] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:40:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:40:22] [main/INFO]: =^..^=    BetterNether for 1.21    =^..^=
+[00:40:22] [main/INFO]: No config found for Extended Enchanting, creating one now.
+[00:40:22] [main/INFO]: Shield API initialized!
+[00:40:22] [main/INFO]: Hello Fabric world!
+[00:40:23] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:40:23] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[00:40:23] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):5.3.5:328453}
+[00:40:23] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):8.2.2:524802}
+[00:40:23] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):9.0.1:589825}
+[00:40:23] [main/INFO]: Running Pre Patchers on ./world/.
+[00:40:23] [main/INFO]: Everything up to date
+[00:40:23] [main/INFO]: Found new data pack archers, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack bettercombat, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack combat-plus-core, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack combat_roll, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack extended-enchanting, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack formationsoverworld, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack hopobettermineshaft, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack hopobetterruinedportal, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack jewelry, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack medieval_buildings, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack mr_dungeons_andtavernsdeserttemplereplacement, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack mr_dungeons_andtavernsendcastlestandalone, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack mr_dungeons_andtavernsjungletemplereplacement, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack mr_dungeons_andtavernsoceanmonumentreplacement, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack mr_dungeons_andtavernswoodlandmansionreplacement, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack paladins, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack rogues, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack runes, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack spell_engine, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack spell_power, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack strayed_fates_forsaken, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack structory, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack structory_towers, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack totw_modded, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack trinkets, loading it automatically
+[00:40:23] [main/INFO]: Found new data pack wizards, loading it automatically
+[00:40:23] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[00:40:23] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[00:40:23] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[00:40:23] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[00:40:23] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[00:40:23] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[00:40:24] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (12977afc)
+[00:40:24] [main/INFO]: Unable to build Biome List yet
+[00:40:24] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[00:40:24] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (64f9b59f)
+[00:40:24] [main/INFO]: Unable to build Biome List yet
+[00:40:24] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[00:40:24] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (725160f5)
+[00:40:24] [main/INFO]: Unable to build Biome List yet
+[00:40:24] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[00:40:24] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1cdaea5b)
+[00:40:24] [main/INFO]: Unable to build Biome List yet
+[00:40:24] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[00:40:24] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2c08a97d)
+[00:40:24] [main/INFO]: Unable to build Biome List yet
+[00:40:24] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[00:40:24] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (378936d5)
+[00:40:24] [main/INFO]: Unable to build Biome List yet
+[00:40:24] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:amber_land
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:blossoming_spires
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:bone_reef (class_4762[temperature=-100, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:chorus_forest
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_glowing_woods (class_4762[temperature=4000, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_pinewood (class_4762[temperature=3500, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:crystal_mountains
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dragon_graveyards
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dry_shrubland
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:dust_wastelands
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:flooded_deltas (class_4762[temperature=-3000, humidity=-100, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1750])
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:foggy_mushroomland
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:glowing_grasslands
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:gravel_desert (class_4762[temperature=-1000, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=2000])
+[00:40:24] [main/INFO]: Adding Small End Island Biome to Fabric: betterend:ice_starfield
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:lantern_woods
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:magma_land (class_4762[temperature=8000, humidity=-7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:megalake_grove
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:neon_oasis
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_grasslands (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_jungle (class_4762[temperature=5000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest_edge (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland (class_4762[temperature=1000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland_terraces (class_4762[temperature=800, humidity=8500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_fungiwoods (class_4762[temperature=0, humidity=6500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_swampland (class_4762[temperature=1000, humidity=7500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_warped_woods (class_4762[temperature=0, humidity=5500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3750])
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:painted_mountains
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:poor_nether_grasslands (class_4762[temperature=0, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:shadow_forest
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:soul_plain (class_4762[temperature=100, humidity=-5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:24] [main/INFO]: Adding Nether Biome to Fabric: betternether:sulfuric_bone_reef (class_4762[temperature=0, humidity=6000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3700])
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:sulphur_springs
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[00:40:24] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbra_valley
+[00:40:25] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[00:40:25] [main/INFO]: Adding End Highland Biome to Fabric: betterend:umbrella_jungle
+[00:40:25] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest (class_4762[temperature=4500, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[00:40:25] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest_cleared (class_4762[temperature=4500, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[00:40:25] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest (class_4762[temperature=-5000, humidity=5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:25] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest_edge (class_4762[temperature=-5000, humidity=4500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[00:40:25] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3d81273a)
+[00:40:25] [main/INFO]: Unable to build Biome List yet
+[00:40:25] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[00:40:25] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7b7bec12)
+[00:40:25] [main/INFO]: Unable to build Biome List yet
+[00:40:25] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[00:40:25] [Worker-Main-3/ERROR]: Unable to building bartering table
+[00:40:25] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/nova_structures:pots/pot_desert_ruin}.pools[0].entries[19].functions[0]: Unknown function table called nova_structures:outreach
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/aether_tower as it is missing following references: #aether:is_aether (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/moon_tower as it is missing following references: ad_astra:lunar_wastelands (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/tw_mangrove_tower as it is missing following references: twilightforest:swamp (from totw_modded), twilightforest:fire_swamp (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/everdawn_tower as it is missing following references: blue_skies:unorthodox_valley (from totw_modded), blue_skies:shaded_woodlands (from totw_modded), blue_skies:crystal_dunes (from totw_modded), blue_skies:crystal_dunes_spikes (from totw_modded), blue_skies:sunset_maple_forest (from totw_modded), blue_skies:rising_creek (from totw_modded), blue_skies:crystal_roughs (from totw_modded), blue_skies:searing_grassland (from totw_modded), blue_skies:crescent_orchard (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/ratlantis_tower as it is missing following references: rats:ratlantis (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/tw_canopy_tower as it is missing following references: twilightforest:forest (from totw_modded), twilightforest:spooky_forest (from totw_modded), twilightforest:mushroom_forest (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/everbright_tower as it is missing following references: blue_skies:calming_skies (from totw_modded), blue_skies:brightlands (from totw_modded), blue_skies:slushlands (from totw_modded), blue_skies:frostbitten_forest (from totw_modded), blue_skies:frostbitten_forest_clearing (from totw_modded), blue_skies:snow_covered_pines (from totw_modded), blue_skies:brisk_meadow (from totw_modded), blue_skies:polar_highland (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/mars_tower as it is missing following references: ad_astra:martian_canyon_creek (from totw_modded), ad_astra:martian_wastelands (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/venus_tower as it is missing following references: ad_astra:infernal_venus_barrens (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/glacio_tower as it is missing following references: ad_astra:glacio_snowy_barrens (from totw_modded), ad_astra:glacio_ice_peaks (from totw_modded)
+[00:40:25] [Worker-Main-1/ERROR]: Couldn't load tag totw_modded:has_structure/mercury_tower as it is missing following references: ad_astra:mercury_deltas (from totw_modded)
+[00:40:26] [main/INFO]: Disabling Recipe: bclib:test_star
+[00:40:26] [main/INFO]: Loaded 3009 recipes
+[00:40:26] [main/INFO]: Added 0 recipes in 1ms
+[00:40:26] [main/ERROR]: Parsing error loading custom advancement nova_structures:end/find_end_lighthouse: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "nova_structures:end_lighthouse"; Second: Failed to get element nova_structures:end_lighthouse missed input: {"end_lighthouse":{"conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"nova_structures:end_lighthouse"}}}]},"trigger":"minecraft:location"}}
+[00:40:26] [main/ERROR]: Parsing error loading custom advancement totw_modded:regular_tower: No key id in MapLike[{"item":"minecraft:diamond_sword"}]
+[00:40:26] [main/ERROR]: Parsing error loading custom advancement totw_modded:ice_tower: No key id in MapLike[{"item":"minecraft:blue_ice"}]
+[00:40:26] [main/ERROR]: Parsing error loading custom advancement totw_modded:derelict_grass_tower: No key id in MapLike[{"item":"minecraft:mossy_cobblestone"}]
+[00:40:26] [main/ERROR]: Parsing error loading custom advancement totw_modded:root: No key id in MapLike[{"item":"waystones:mossy_waystone"}]
+[00:40:26] [main/ERROR]: Parsing error loading custom advancement totw_modded:jungle_tower: No key id in MapLike[{"item":"minecraft:vine"}]
+[00:40:26] [main/ERROR]: Parsing error loading custom advancement totw_modded:derelict_tower: No key id in MapLike[{"item":"minecraft:cracked_deepslate_bricks"}]
+[00:40:26] [main/ERROR]: Couldn't load advancements: [nova_structures:phantom_boss_make_fall, nova_structures:phantom_boss_ominous_make_fall]
+[00:40:26] [main/INFO]: Loaded 2963 advancements
+[00:40:26] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/tw_canopy_tower, totw_modded:has_structure/tw_mangrove_tower, totw_modded:has_structure/venus_tower
+[00:40:26] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/empty
+[00:40:26] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:enchantment] are present in data pack: nova_structures:shrine
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7c9f4759)
+[00:40:27] [main/INFO]: Added 11 Biomes
+[00:40:27] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[00:40:27] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (50232b2a)
+[00:40:27] [main/INFO]: Added 5 Biomes
+[00:40:27] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[00:40:27] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[00:40:27] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[00:40:27] [main/INFO]: Added Tags for 1 fabric biomes in 17.64 ms
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (7c9f4759)
+[00:40:27] [main/INFO]: Added 11 Biomes
+[00:40:27] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3d81273a)
+[00:40:27] [main/INFO]: Added 11 Biomes
+[00:40:27] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3d81273a)
+[00:40:27] [main/INFO]: Added 11 Biomes
+[00:40:27] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[00:40:27] [main/INFO]: Added 6 biomes to wover:is_end/highland in 3.334 ms
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (50232b2a)
+[00:40:27] [main/INFO]: Added 5 Biomes
+[00:40:27] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[00:40:27] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7b7bec12)
+[00:40:27] [main/INFO]: Added 5 Biomes
+[00:40:27] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[00:40:27] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7b7bec12)
+[00:40:27] [main/INFO]: Added 5 Biomes
+[00:40:27] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[00:40:27] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3d81273a)
+[00:40:27] [main/INFO]: Added 11 Biomes
+[00:40:27] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[00:40:27] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[00:40:27] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (7b7bec12)
+[00:40:27] [main/INFO]: Added 5 Biomes
+[00:40:27] [main/INFO]:  - betterend:neon_oasis, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:megalake_grove, subbiomes=1
+[00:40:27] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[00:40:27] [main/INFO]:  - betterend:painted_mountains, subbiomes=1
+[00:40:27] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[00:40:27] [main/INFO]: Applied 42 biome modifications and added 25 tags to 30 of 111 biomes in 19.17 ms
+[00:40:27] [main/INFO]: Applied 53 biome modifications to 53 of 111 new biomes in 8.856 ms
+[00:40:27] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 75458 bytes (in 8 string chunks with the size of 10000)
+[00:40:27] [Server thread/INFO]: [STDOUT]: Encoded SpellRegistry size (with package overhead): ??? bytes (in 12 string chunks with the size of 10000)
+[00:40:27] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[00:40:27] [Server thread/INFO]: Loading properties
+[00:40:27] [Server thread/INFO]: Default game type: SURVIVAL
+[00:40:27] [Server thread/INFO]: Generating keypair
+[00:40:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:40:28] [Server thread/INFO]: Using epoll channel type
+[00:40:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:40:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:40:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:40:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:40:28] [Server thread/INFO]: Preparing level "world"
+[00:40:28] [Server thread/INFO]: World Dimensions: 
+ - minecraft:the_nether: 
+     WoVer - Chunk Generator (2a0adfd1)
+         preset     = wover:normal
+         noise      = minecraft:nether
+         features   = minecraft(37), betternether(95)
+     WoVer - Nether BiomeSource (3d81273a)
+         biomes     = 27
+         namespaces = betternether(22), minecraft(5)
+         seed       = 6937923755782070031
+         height     = 128
+         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+ - minecraft:the_end: 
+     WoVer - Chunk Generator (2fed838a)
+         preset     = wover:normal
+         noise      = minecraft:end
+         features   = minecraft(5), betterend(127)
+     WoVer - The End  BiomeSource (7b7bec12)
+         biomes     = 24
+         namespaces = minecraft(5), betterend(19)
+         seed       = 6937923755782070031
+         height     = 128
+         deciders   = 0
+         config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
+ - minecraft:overworld: 
+     class_3754 (5459f1cc)
+         preset     = minecraft:normal
+         noise      = minecraft:overworld
+         features   = minecraft(151), jewelry(1)
+     class_4766 (4ac342c3)
+         biomes     = 53
+         namespaces = minecraft(53)
+[00:40:28] [Server thread/INFO]: Merged 22 additional Surface Rules for Dimension minecraft:the_nether => 74 (884.6 μs) using WoVer - Nether BiomeSource (3d81273a)
+    biomes     = 27
+    namespaces = betternether(22), minecraft(5)
+    seed       = 6937923755782070031
+    height     = 128
+    config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+[00:40:28] [Server thread/INFO]: Merged 19 additional Surface Rules for Dimension minecraft:the_end => 20 (286.7 μs) using WoVer - The End  BiomeSource (7b7bec12)
+    biomes     = 24
+    namespaces = minecraft(5), betterend(19)
+    seed       = 6937923755782070031
+    height     = 128
+    deciders   = 0
+    config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
+[00:40:28] [Server thread/INFO]: Added 2 Biomes
+[00:40:28] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[00:40:28] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[00:40:31] [Server thread/INFO]: Added 2 Biomes
+[00:40:31] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[00:40:31] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[00:40:31] [Server thread/INFO]: Added 2 Biomes
+[00:40:31] [Server thread/INFO]:  - minecraft:end_midlands, subbiomes=1
+[00:40:31] [Server thread/INFO]:  - minecraft:end_barrens, subbiomes=1
+[00:40:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:40:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:40:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:40:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:40:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:40:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:40:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:40:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:40:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:40:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:40:35] [Server thread/INFO]: Time elapsed: 4124 ms
+[00:40:35] [Server thread/INFO]: Done (7.384s)! For help, type "help"
+[00:41:30] [Server thread/INFO]: Abstem[/172.23.105.160:52396] logged in with entity id 10 at (-8.5, 71.0, -8.5)
+[00:41:30] [Server thread/INFO]: Abstem joined the game
+[00:48:48] [Server thread/INFO]: Abstem has made the advancement [Stone Age]
+[00:53:50] [Server thread/INFO]: Abstem lost connection: Disconnected
+[00:53:50] [Server thread/INFO]: Abstem left the game
+[00:54:43] [Server thread/INFO]: Abstem[/172.23.105.160:52638] logged in with entity id 3791 at (453.4213956832599, 73.0, 258.36350136446686)
+[00:54:43] [Server thread/INFO]: Abstem joined the game
+[00:55:18] [Server thread/INFO]: Abstem lost connection: Disconnected
+[00:55:18] [Server thread/INFO]: Abstem left the game
