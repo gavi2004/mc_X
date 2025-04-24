@@ -222,7 +222,19 @@
       "wizards:staff_frost"
     ],
     "rpg_series:tier_4_aether_weapons": [
-      "paladins:aether_kite_shield"
+      "archers:aether_spear",
+      "archers:aether_longbow",
+      "archers:aether_rapid_crossbow",
+      "archers:aether_heavy_crossbow",
+      "paladins:aether_great_hammer",
+      "paladins:aether_claymore",
+      "paladins:aether_holy_staff",
+      "paladins:aether_kite_shield",
+      "rogues:aether_dagger",
+      "rogues:aether_sickle",
+      "rogues:aether_double_axe",
+      "rogues:aether_glaive",
+      "wizards:aether_wizard_staff"
     ],
     "rpg_series:tier_4_accessories": [
       "jewelry:unique_attack_ring",
