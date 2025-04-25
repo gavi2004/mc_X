@@ -862,3 +862,53 @@
 [01:20:29] [Server thread/INFO]: [Abstem: Set the time to 1000]
 [01:24:19] [Server thread/INFO]: [Abstem: Set the weather to clear]
 [01:24:48] [Server thread/INFO]: [Abstem: Set the time to 13000]
+[01:25:29] [Server thread/WARN]: UUID of added entity already exists: class_1542['Arrow'/2246, l='ServerLevel[world]', x=-816.70, y=-41.83, z=1469.30]
+[01:25:37] [Server thread/WARN]: UUID of added entity already exists: class_1542['Rotten Flesh'/2257, l='ServerLevel[world]', x=-826.65, y=63.00, z=1474.46]
+[01:26:00] [Server thread/WARN]: UUID of added entity already exists: class_1542['Rotten Flesh'/2320, l='ServerLevel[world]', x=-834.52, y=63.00, z=1469.93]
+[01:26:29] [Server thread/WARN]: UUID of added entity already exists: class_1542['String'/2370, l='ServerLevel[world]', x=-818.59, y=63.40, z=1481.54]
+[01:27:22] [Server thread/WARN]: UUID of added entity already exists: class_1542['Rotten Flesh'/2464, l='ServerLevel[world]', x=-835.56, y=64.23, z=1464.58]
+[01:27:35] [Server thread/WARN]: UUID of added entity already exists: class_1542['Bone'/2495, l='ServerLevel[world]', x=-837.34, y=64.39, z=1450.94]
+[01:27:40] [Server thread/WARN]: UUID of added entity already exists: class_1542['Rotten Flesh'/2505, l='ServerLevel[world]', x=-793.76, y=63.00, z=1508.08]
+[01:28:04] [Server thread/INFO]: Abstem lost connection: Disconnected
+[01:28:04] [Server thread/INFO]: Abstem left the game
+[01:28:04] [Server thread/INFO]: [voicechat] Disconnecting client Abstem
+[01:30:10] [Server thread/INFO]: Abstem[/172.23.74.47:50481] logged in with entity id 2547 at (-787.9004837690558, 63.0, 1486.4000973897369)
+[01:30:10] [Server thread/INFO]: Sending server config values to client
+[01:30:10] [Server thread/INFO]: Loading config from file...
+[01:30:10] [Server thread/INFO]: Abstem joined the game
+[01:30:13] [Server thread/INFO]: [voicechat] Received secret request of Abstem (18)
+[01:30:13] [Server thread/INFO]: [voicechat] Sent secret to Abstem
+[01:30:13] [Server thread/INFO]: Receiving client config
+[01:30:13] [Server thread/INFO]: [ShulkerBoxTooltip] Abstem: protocol version: 2.0
+[01:30:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player a91b87df-03c6-373e-9dea-e9011f30c9fc
+[01:30:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player a91b87df-03c6-373e-9dea-e9011f30c9fc
+[01:30:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Abstem (a91b87df-03c6-373e-9dea-e9011f30c9fc) successfully connected to voice chat
+[01:33:06] [Server thread/INFO]: Kotori003[/172.23.102.152:22112] logged in with entity id 3252 at (-0.5, 64.0, 4.5)
+[01:33:06] [Server thread/INFO]: Sending server config values to client
+[01:33:06] [Server thread/INFO]: Loading config from file...
+[01:33:06] [Server thread/INFO]: Kotori003 joined the game
+[01:33:18] [Server thread/INFO]: [voicechat] Received secret request of Kotori003 (18)
+[01:33:18] [Server thread/INFO]: [voicechat] Sent secret to Kotori003
+[01:33:19] [Server thread/INFO]: Receiving client config
+[01:33:19] [Server thread/INFO]: [ShulkerBoxTooltip] Kotori003: protocol version: 2.0
+[01:33:31] [Server thread/WARN]: UUID of added entity already exists: class_1542['Glow Ink Sac'/3617, l='ServerLevel[world]', x=3.32, y=12.00, z=-78.60]
+[01:33:31] [Server thread/WARN]: UUID of added entity already exists: class_1542['Glow Ink Sac'/3618, l='ServerLevel[world]', x=3.51, y=14.00, z=-79.60]
+[01:33:36] [Server thread/INFO]: Kotori003 lost connection: Timed out
+[01:33:36] [Server thread/INFO]: Kotori003 left the game
+[01:33:36] [Server thread/INFO]: [voicechat] Disconnecting client Kotori003
+[01:33:36] [Server thread/WARN]: handleDisconnection() called twice
+[01:33:52] [Server thread/INFO]: Kotori003[/172.23.102.152:22120] logged in with entity id 3645 at (-0.5, 64.0, 4.5)
+[01:33:52] [Server thread/INFO]: Sending server config values to client
+[01:33:52] [Server thread/INFO]: Loading config from file...
+[01:33:52] [Server thread/INFO]: Kotori003 joined the game
+[01:33:54] [Server thread/INFO]: [voicechat] Received secret request of Kotori003 (18)
+[01:33:54] [Server thread/INFO]: [voicechat] Sent secret to Kotori003
+[01:33:54] [Server thread/INFO]: Receiving client config
+[01:33:54] [Server thread/INFO]: [ShulkerBoxTooltip] Kotori003: protocol version: 2.0
+[01:33:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f2f09e33-7af2-3d0e-9f5a-8ef514d9a6e5
+[01:33:55] [Server thread/WARN]: UUID of added entity already exists: class_1542['Bone'/3955, l='ServerLevel[world]', x=-840.63, y=68.00, z=1440.55]
+[01:33:55] [Server thread/WARN]: UUID of added entity already exists: class_1542['Rotten Flesh'/3956, l='ServerLevel[world]', x=-716.18, y=63.00, z=1505.82]
+[01:33:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f2f09e33-7af2-3d0e-9f5a-8ef514d9a6e5
+[01:33:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Kotori003 (f2f09e33-7af2-3d0e-9f5a-8ef514d9a6e5) successfully connected to voice chat
+[01:34:01] [Server thread/INFO]: [Abstem: Teleported Abstem to Kotori003]
+[01:34:39] [Server thread/INFO]: [Abstem: Teleported Kotori003 to Abstem]
